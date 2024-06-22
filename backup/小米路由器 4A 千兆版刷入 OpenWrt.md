@@ -72,10 +72,13 @@ mtd write breed-mt7621-pbr-m1.bin Bootloader
 官方镜像可以从以下两个镜像下载；测试发现官方的 initramfs-kernel 可以正常刷入，但是 squashfs-sysupgrade 刷入后会导致路由器不断的重启，无法工作
 - [Xiaomi Mi Router 4A Gigabit Edition 说明文档](https://openwrt.org/inbox/toh/xiaomi/xiaomi_mi_router_4a_gigabit_edition)
 <img width="1332" alt="homelab-miwifi-openwrt-firmware-official2" src="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/c553226f-a077-483f-b7a9-dafec705d83c">
-- [https://firmware-selector.openwrt.org/](https://firmware-selector.openwrt.org/?version=21.02.3&target=ramips/mt7621&id=xiaomi_mi-router-4a-gigabit)
-![image](https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/38e914a7-a87d-4a3e-8f20-34e146c02449)
 
-# 刷入OpenWrt
+- [https://firmware-selector.openwrt.org/](https://firmware-selector.openwrt.org/?version=21.02.3&target=ramips/mt7621&id=xiaomi_mi-router-4a-gigabit)
+
+![image](https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/71526f16-5cd9-4e67-8b00-34b3098ef23a)
+
+
+## 刷入OpenWrt
 进入 Breed，选择固件更新，选择固件，在文件夹中选择 `Kernel` 版本的镜像，上传并更新；
 <img width="1258" alt="homelab-miwifi-breed-firmware-upload" src="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/0fc377d6-20ea-40de-8ae6-e185030aff8a">
 ![image](https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/0f10a0e9-a004-4cae-9c88-e4914993e3cf)

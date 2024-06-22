@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>DIO's Blog</title><link>https://DIO0v0.github.io</link><description>A new attempt；Record and share what I have seen and heard。</description><copyright>DIO's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/152008182?v=4</url><title>avatar</title><link>https://DIO0v0.github.io</link></image><lastBuildDate>Sat, 22 Jun 2024 13:16:43 +0000</lastBuildDate><managingEditor>DIO's Blog</managingEditor><ttl>60</ttl><webMaster>DIO's Blog</webMaster><item><title>小米路由器 4A 千兆版刷入 OpenWrt</title><link>https://DIO0v0.github.io/post/xiao-mi-lu-you-qi-%204A%20-qian-zhao-ban-shua-ru-%20OpenWrt.html</link><description># 依赖&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>DIO's Blog</title><link>https://DIO0v0.github.io</link><description>A new attempt；Record and share what I have seen and heard。</description><copyright>DIO's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/152008182?v=4</url><title>avatar</title><link>https://DIO0v0.github.io</link></image><lastBuildDate>Sat, 22 Jun 2024 13:25:36 +0000</lastBuildDate><managingEditor>DIO's Blog</managingEditor><ttl>60</ttl><webMaster>DIO's Blog</webMaster><item><title>小米路由器 4A 千兆版刷入 OpenWrt</title><link>https://DIO0v0.github.io/post/xiao-mi-lu-you-qi-%204A%20-qian-zhao-ban-shua-ru-%20OpenWrt.html</link><description># 依赖&#13;
 - 电脑 Win/Mac/Linux，需要支持网线连接，如果是 Mac，需要一个网线转接器&#13;
 - 小米路由器 4A 千兆版&#13;
 - Python3 环境&#13;
@@ -73,10 +73,13 @@ mtd write breed-mt7621-pbr-m1.bin Bootloader&#13;
 官方镜像可以从以下两个镜像下载；测试发现官方的 initramfs-kernel 可以正常刷入，但是 squashfs-sysupgrade 刷入后会导致路由器不断的重启，无法工作&#13;
 - [Xiaomi Mi Router 4A Gigabit Edition 说明文档](https://openwrt.org/inbox/toh/xiaomi/xiaomi_mi_router_4a_gigabit_edition)&#13;
 &lt;img width='1332' alt='homelab-miwifi-openwrt-firmware-official2' src='https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/c553226f-a077-483f-b7a9-dafec705d83c'&gt;&#13;
-- [https://firmware-selector.openwrt.org/](https://firmware-selector.openwrt.org/?version=21.02.3&amp;target=ramips/mt7621&amp;id=xiaomi_mi-router-4a-gigabit)&#13;
-![image](https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/38e914a7-a87d-4a3e-8f20-34e146c02449)&#13;
 &#13;
-# 刷入OpenWrt&#13;
+- [https://firmware-selector.openwrt.org/](https://firmware-selector.openwrt.org/?version=21.02.3&amp;target=ramips/mt7621&amp;id=xiaomi_mi-router-4a-gigabit)&#13;
+&#13;
+![image](https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/71526f16-5cd9-4e67-8b00-34b3098ef23a)&#13;
+&#13;
+&#13;
+## 刷入OpenWrt&#13;
 进入 Breed，选择固件更新，选择固件，在文件夹中选择 `Kernel` 版本的镜像，上传并更新；&#13;
 &lt;img width='1258' alt='homelab-miwifi-breed-firmware-upload' src='https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/0fc377d6-20ea-40de-8ae6-e185030aff8a'&gt;&#13;
 ![image](https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/0f10a0e9-a004-4cae-9c88-e4914993e3cf)&#13;
