@@ -1,5 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>DIO's Blog</title><link>https://DIO0v0.github.io</link><description>A new attempt；Record and share what I have seen and heard。</description><copyright>DIO's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/152008182?v=4</url><title>avatar</title><link>https://DIO0v0.github.io</link></image><lastBuildDate>Sat, 22 Jun 2024 09:50:22 +0000</lastBuildDate><managingEditor>DIO's Blog</managingEditor><ttl>60</ttl><webMaster>DIO's Blog</webMaster><item><title>Blog Test</title><link>https://DIO0v0.github.io/post/Blog%20Test.html</link><description># Try_it&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>DIO's Blog</title><link>https://DIO0v0.github.io</link><description>A new attempt；Record and share what I have seen and heard。</description><copyright>DIO's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/152008182?v=4</url><title>avatar</title><link>https://DIO0v0.github.io</link></image><lastBuildDate>Sat, 22 Jun 2024 10:06:06 +0000</lastBuildDate><managingEditor>DIO's Blog</managingEditor><ttl>60</ttl><webMaster>DIO's Blog</webMaster><item><title>Gmeek 强调关键信息使用</title><link>https://DIO0v0.github.io/post/Gmeek%20-qiang-diao-guan-jian-xin-xi-shi-yong.html</link><description>&gt; [!NOTE]&#13;
+&gt; Useful information that users should know, even when skimming content.&#13;
+&#13;
+&gt; [!TIP]&#13;
+&gt; Helpful advice for doing things better or more easily.&#13;
+&#13;
+&gt; [!IMPORTANT]&#13;
+&gt; Key information users need to know to achieve their goal.&#13;
+&#13;
+&gt; [!WARNING]&#13;
+&gt; Urgent info that needs immediate user attention to avoid problems.&#13;
+&#13;
+&gt; [!CAUTION]&#13;
+&gt; Advises about risks or negative outcomes of certain actions.。</description><guid isPermaLink="true">https://DIO0v0.github.io/post/Gmeek%20-qiang-diao-guan-jian-xin-xi-shi-yong.html</guid><pubDate>Sat, 22 Jun 2024 10:02:34 +0000</pubDate></item><item><title>Blog Test</title><link>https://DIO0v0.github.io/post/Blog%20Test.html</link><description># Try_it&#13;
 # First Blog test&#13;
 &#13;
 ![1](https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/5843cea9-dfd8-48b4-a706-e54091114bad)&#13;
