@@ -6,7 +6,7 @@
     "startSite":"06/22/2024",
     "onePageListNum":10,
     "singlePage":["about"],
-    "iconList":{"music":"<PlaySquareTwoTone />"},
+    "iconList":{"music":"<%= render(Primer::Beta::Octicon.new(:play, size: :small)) %>"},
     "exlink":{"music":"https://music.163.com/outchain/player?type=2&id=2163982959&auto=1"},
     "commentLabelColor":"#006b75",
     "yearColorList":["#bc4c00", "#0969da", "#1f883d", "#A333D0"],
