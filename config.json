@@ -3,10 +3,10 @@
     "subTitle":"A new attempt；Record and share what I have seen and heard。",
     "avatarUrl":"https://avatars.githubusercontent.com/u/152008182?v=4",
     "GMEEK_VERSION":"last",
-    "startSite":"06/22/2024",
+    "startSite":"06/06/2024",
     "onePageListNum":10,
     "singlePage":["about"],
-    "iconList":{"music":"M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13Z"},
+    "iconList":{"music":"<%= render(Primer::Beta::Octicon.new(:play, size: :small)) %>"},
     "exlink":{"music":"https://music.163.com/outchain/player?type=2&id=2163982959&auto=1"},
     "commentLabelColor":"#006b75",
     "yearColorList":["#bc4c00", "#0969da", "#1f883d", "#A333D0"],
@@ -18,6 +18,6 @@
     "rssSplit":"sentence",
     "bottomText":"感谢您的访问，转载请注明出处！",
     "style":"<style>#postBody{font-size:20px}</style>",
-    "script":"<script async src='//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'></script>",
+    "script":"<script async src='//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'></script>"
     
 }
