@@ -1,5 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>DIO's Blog</title><link>https://DIO0v0.github.io</link><description>A new attempt；Record and share what I have seen and heard。</description><copyright>DIO's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/152008182?v=4</url><title>avatar</title><link>https://DIO0v0.github.io</link></image><lastBuildDate>Sat, 22 Jun 2024 13:25:36 +0000</lastBuildDate><managingEditor>DIO's Blog</managingEditor><ttl>60</ttl><webMaster>DIO's Blog</webMaster><item><title>小米路由器 4A 千兆版刷入 OpenWrt</title><link>https://DIO0v0.github.io/post/xiao-mi-lu-you-qi-%204A%20-qian-zhao-ban-shua-ru-%20OpenWrt.html</link><description># 依赖&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>DIO's Blog</title><link>https://DIO0v0.github.io</link><description>A new attempt；Record and share what I have seen and heard。</description><copyright>DIO's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/152008182?v=4</url><title>avatar</title><link>https://DIO0v0.github.io</link></image><lastBuildDate>Sun, 23 Jun 2024 03:38:03 +0000</lastBuildDate><managingEditor>DIO's Blog</managingEditor><ttl>60</ttl><webMaster>DIO's Blog</webMaster><item><title>favicon和avatar图标使用svg格式</title><link>https://DIO0v0.github.io/post/favicon-he-avatar-tu-biao-shi-yong-svg-ge-shi.html</link><description>[favicon和avatar图标使用svg格式](https://blog.meekdai.com/post/favicon-he-avatar-tu-biao-shi-yong-svg-ge-shi.html)&#13;
+&#13;
+&#13;
+&#13;
+## 转换&#13;
+&#13;
+1. 使用免费在线转换网站，上传我们的图片进行转换。</description><guid isPermaLink="true">https://DIO0v0.github.io/post/favicon-he-avatar-tu-biao-shi-yong-svg-ge-shi.html</guid><pubDate>Sun, 23 Jun 2024 03:37:39 +0000</pubDate></item><item><title>小米路由器 4A 千兆版刷入 OpenWrt</title><link>https://DIO0v0.github.io/post/xiao-mi-lu-you-qi-%204A%20-qian-zhao-ban-shua-ru-%20OpenWrt.html</link><description># 依赖&#13;
 - 电脑 Win/Mac/Linux，需要支持网线连接，如果是 Mac，需要一个网线转接器&#13;
 - 小米路由器 4A 千兆版&#13;
 - Python3 环境&#13;
