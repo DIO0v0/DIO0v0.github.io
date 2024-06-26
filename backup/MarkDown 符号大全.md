@@ -2,7 +2,7 @@
 <summary>人物</summary>
  
 | ICO | Emoji |
-|     :---:     |     :---:      | 
+|     :---    |     :---      | 
 |🤣	:rofl:	 |😄	:smile: |
 |😆	:laughing:| 😊	:blush:|
 |😃	:smiley:	|☺	:relaxed:|
@@ -104,7 +104,7 @@
 <summary>自然</summary>
 
 | ICO | Emoji |
-|     :---:     |     :---:      | 
+|     :---     |     :---      | 
 |☀	:sunny:	|☔	:umbrella:
 ☁	:cloud:	|❄	:snowflake:
 ⛄	:snowman:	|⚡	:zap:
@@ -168,7 +168,7 @@
 <summary>物体</summary>
  
 | ICO | Emoji |
-|     :---:     |     :---:      | 
+|     :---     |     :---      | 
 |🎍	:bamboo:	|💝	:gift_heart:
 🎎	:dolls:	|🎒	:school_satchel:
 🎓	:mortar_board:	|🎏	:flags:
@@ -299,4 +299,135 @@
 🍐	:pear:	|🍍	:pineapple:
 🍠	:sweet_potato:	|🍆	:eggplant:
 🍅	:tomato:	|🌽	:corn:
+</details>
+
+
+
+<details open>
+<summary>地点</summary>
+ 
+| ICO | Emoji |
+|     :---     |     :---      | 
+|🏠	:house:	|🏡	:house_with_garden:
+🏫	:school:	|🏢	:office:
+🏣	:post_office:	|🏥	:hospital:
+🏦	:bank:	|🏪	:convenience_store:
+🏩	:love_hotel:	|🏨	:hotel:
+💒	:wedding:	|⛪	:church:
+🏬	:department_store:	|🏤	:european_post_office:
+🌇	:city_sunrise:	|🌆	:city_sunset:
+🏯	:japanese_castle:	|🏰	:european_castle:
+⛺	:tent:	|🏭	:factory:
+🗼	:tokyo_tower:	|🗾	:japan:
+🗻	:mount_fuji:	|🌄	:sunrise_over_mountains:
+🌅	:sunrise:	|🌠	:stars:
+🗽	:statue_of_liberty:	|🌉	:bridge_at_night:
+🎠	:carousel_horse:	|🌈	:rainbow:
+🎡	:ferris_wheel:	|⛲	:fountain:
+🎢	:roller_coaster:	|🚢	:ship:
+🚤	:speedboat:	|⛵	:boat:
+⛵	:sailboat:	|🚣	:rowboat:
+⚓	:anchor:	|🚀	:rocket:
+✈	:airplane:	|🚁	:helicopter:
+🚂	:steam_locomotive:	|🚊	:tram:
+🚞	:mountain_railway:	|🚲	:bike:
+🚡	:aerial_tramway:	|🚟	:suspension_railway:
+🚠	:mountain_cableway:	|🚜	:tractor:
+🚙	:blue_car:	|🚘	:oncoming_automobile:
+🚗	:car:	|🚗	:red_car:
+🚕	:taxi:	|🚖	:oncoming_taxi:
+🚛	:articulated_lorry:	|🚌	:bus:
+🚍	:oncoming_bus:	|🚨	:rotating_light:
+🚓	:police_car:	|🚔	:oncoming_police_car:
+🚒	:fire_engine:	|🚑	:ambulance:
+🚐	:minibus:	|🚚	:truck:
+🚋	:train:	|🚉	:station:
+🚆	:train2:	|🚅	:bullettrain_front:
+🚄	:bullettrain_side:	|🚈	:light_rail:
+🚝	:monorail:	|🚃	:railway_car:
+🚎	:trolleybus:	|🎫	:ticket:
+⛽	:fuelpump:	|🚦	:vertical_traffic_light:
+🚥	:traffic_light:	|⚠	:warning:
+🚧	:construction:	|🔰	:beginner:
+🏧	:atm:	|🎰	:slot_machine:
+🚏	:busstop:	|💈	:barber:
+♨	:hotsprings:	|🏁	:checkered_flag:
+🎌	:crossed_flags:	|🏮	:izakaya_lantern:
+🗿	:moyai:	|🎪	:circus_tent:
+🎭	:performing_arts:	|📍	:round_pushpin:
+🚩	:triangular_flag_on_post:	|🇯🇵	:jp:
+🇰🇷	:kr:	|🇨🇳	:cn:
+🇺🇸	:us:	|🇫🇷	:fr:
+🇪🇸	:es:	|🇮🇹	:it:
+🇷🇺	:ru:	|🇬🇧	:gb:
+🇬🇧	:uk:	|🇩🇪	:de:
+
+</details>
+
+
+<details open>
+<summary>符号</summary>
+ 
+| ICO | Emoji |
+|     :---     |     :---      | 
+|1⃣	:one:	|2⃣	:two:
+3⃣	:three:	|4⃣	:four:
+5⃣	:five:	|6⃣	:six:
+7⃣	:seven:	|8⃣	:eight:
+9⃣	:nine:	|🔟	:keycap_ten:
+🔢	:1234:	|0⃣	:zero:
+#⃣	:hash:	|🔣	:symbols:
+◀	:arrow_backward:	|⬇	:arrow_down:
+▶	:arrow_forward:	|⬅	:arrow_left:
+🔠	:capital_abcd:	|🔡	:abcd:
+🔤	:abc:	|↙	:arrow_lower_left:
+↘	:arrow_lower_right:	|➡	:arrow_right:
+⬆	:arrow_up:	|↖	:arrow_upper_left:
+↗	:arrow_upper_right:	|⏬	:arrow_double_down:
+⏫	:arrow_double_up:	|🔽	:arrow_down_small:
+⤵	:arrow_heading_down:	|⤴	:arrow_heading_up:
+↩	:leftwards_arrow_with_hook:	|↪	:arrow_right_hook:
+↔	:left_right_arrow:	|↕	:arrow_up_down:
+🔼	:arrow_up_small:	|🔃	:arrows_clockwise:
+🔄	:arrows_counterclockwise:	|⏪	:rewind:
+⏩	:fast_forward:	|ℹ	:information_source:
+🆗	:ok:	|🔀	:twisted_rightwards_arrows:
+🔁	:repeat:	|🔂	:repeat_one:
+🆕	:new:	|🔝	:top:
+🆙	:up:	|🆒	:cool:
+🆓	:free:	|🆖	:ng:
+🎦	:cinema:	|🈁	:koko:
+📶	:signal_strength:	|🈹	:u5272:
+🈴	:u5408:	|🈺	:u55b6:
+🈯	:u6307:	|🈷	:u6708:
+🈶	:u6709:	|🈵	:u6e80:
+🈚	:u7121:	|🈸	:u7533:
+🈳	:u7a7a:	|🈲	:u7981:
+🈂	:sa:	|🚻	:restroom:
+🚹	:mens:	|🚺	:womens:
+🚼	:baby_symbol:	|🚭	:no_smoking:
+🅿	:parking:	|♿	:wheelchair:
+🚇	:metro:	|🛄	:baggage_claim:
+🉑	:accept:	|🚾	:wc:
+🚰	:potable_water:	|🚮	:put_litter_in_its_place:
+㊙	:secret:	|㊗	:congratulations:
+Ⓜ	:m:	|🛂	:passport_control:
+🛅	:left_luggage:	|🛃	:customs:
+🉐	:ideograph_advantage:	|🆑	:cl:
+🆘	:sos:	|🆔	:id:
+🚫	:no_entry_sign:	|🔞	:underage:
+📵	:no_mobile_phones:	|🚯	:do_not_litter:
+🚱	:non-potable_water:	|🚳	:no_bicycles:
+🚷	:no_pedestrians:	|🚸	:children_crossing:
+⛔	:no_entry:	|✳	:eight_spoked_asterisk:
+❇	:sparkle:	|✴	:eight_pointed_black_star:
+💟	:heart_decoration:	|🆚	:vs:
+📳	:vibration_mode:	|📴	:mobile_phone_off:
+💹	:chart:	|💱	:currency_exchange:
+♈	:aries:	|♉	:taurus:
+♊	:gemini:	|♋	:cancer:
+♌	:leo:	|♍	:virgo:
+♎	:libra:	|♏	:scorpius:
+♐	:sagittarius:	|♑	:capricorn:
+
 </details>
