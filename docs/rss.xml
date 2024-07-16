@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>DIO's Blog</title><link>https://DIO0v0.github.io</link><description>A new attempt；Record and share what I have seen and heard</description><copyright>DIO's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/152008182?v=4</url><title>avatar</title><link>https://DIO0v0.github.io</link></image><lastBuildDate>Mon, 15 Jul 2024 12:47:34 +0000</lastBuildDate><managingEditor>DIO's Blog</managingEditor><ttl>60</ttl><webMaster>DIO's Blog</webMaster><item><title>当忘了Navicat连接密码！</title><link>https://DIO0v0.github.io/post/dang-wang-le-Navicat-lian-jie-mi-ma-%EF%BC%81.html</link><description>## 一&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>DIO's Blog</title><link>https://DIO0v0.github.io</link><description>A new attempt；Record and share what I have seen and heard</description><copyright>DIO's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/152008182?v=4</url><title>avatar</title><link>https://DIO0v0.github.io</link></image><lastBuildDate>Tue, 16 Jul 2024 15:15:43 +0000</lastBuildDate><managingEditor>DIO's Blog</managingEditor><ttl>60</ttl><webMaster>DIO's Blog</webMaster><item><title>当忘了Navicat连接密码！</title><link>https://DIO0v0.github.io/post/dang-wang-le-Navicat-lian-jie-mi-ma-%EF%BC%81.html</link><description>## 一&#13;
 在网上找的代码，本地运行或者找php在线运行都可。</description><guid isPermaLink="true">https://DIO0v0.github.io/post/dang-wang-le-Navicat-lian-jie-mi-ma-%EF%BC%81.html</guid><pubDate>Mon, 15 Jul 2024 12:47:12 +0000</pubDate></item><item><title>MarkDown 符号大全</title><link>https://DIO0v0.github.io/post/MarkDown%20-fu-hao-da-quan.html</link><description>&lt;details open&gt;&#13;
 &lt;summary&gt;人物&lt;/summary&gt;&#13;
  &#13;
@@ -558,6 +558,10 @@ mtd write breed-mt7621-pbr-m1.bin Bootloader&#13;
 &#13;
 ![1](https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/5843cea9-dfd8-48b4-a706-e54091114bad)&#13;
 `Gmeek-html&lt;img src='https://picsum.photos/200'&gt;`&#13;
+&#13;
+&#13;
+&#13;
+![](https://i0.hdslb.com/bfs/article/bfe5ce3ab5de2efe167ab70db727ee523546572358945684.png)&#13;
 &#13;
 `Gmeek-html&lt;iframe src='//player.bilibili.com/player.html?isOutside=true&amp;aid=1305790042&amp;bvid=BV1GM4m1m7ZD&amp;cid=1588230883&amp;p=1' scrolling='no' border='0' frameborder='no' framespacing='0' allowfullscreen='true' width='100%' height='460px'&gt;&lt;/iframe&gt;`&#13;
 。</description><guid isPermaLink="true">https://DIO0v0.github.io/post/Blog%20Test.html</guid><pubDate>Sat, 22 Jun 2024 03:07:13 +0000</pubDate></item></channel></rss>
