@@ -151,4 +151,4 @@ navicat版本11或12都可以试试
 ![image](https://github.com/user-attachments/assets/88161ed5-dac8-4cf7-89a0-1040b4b540d0)
 
 ## 三
-还可以使用取证大师中的小程序：navicat会话解密。
+如果有自动化取证工具也是可以的例如：取证大师中的小程序——navicat会话解密。
