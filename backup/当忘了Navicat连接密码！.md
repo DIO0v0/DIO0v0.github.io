@@ -143,12 +143,12 @@ echo $decode."\n";
 ```
 navicat版本11或12都可以试试
 
-![image](https://github.com/user-attachments/assets/6cbc3022-c900-4b30-8480-00930f379f5d)
+![](https://i0.hdslb.com/bfs/article/0b5bd08f247c53d54a88a9784933477e487596537.png)
 
 
 ## 二
 当然还有更简单的方法，[navicat_password_decrypt](https://github.com/Zhuoyuan1/navicat_password_decrypt)，忘记navicat密码时,此工具可以帮您查看密码。
-![image](https://github.com/user-attachments/assets/88161ed5-dac8-4cf7-89a0-1040b4b540d0)
+![](https://i0.hdslb.com/bfs/article/535a01b9ac3f2632c89b9e3e7f7917c6487596537.png)
 
 ## 三
 如果有自动化取证工具也是可以的例如：取证大师中的小程序——navicat会话解密。

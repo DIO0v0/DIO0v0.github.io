@@ -80,17 +80,17 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <span class="pl-k">class</span> <span class="pl-v">NavicatPassword</span>
 {
     <span class="pl-k">protected</span> <span class="pl-c1"><span class="pl-c1">$</span>version</span> = <span class="pl-c1">0</span>;
-    <span class="pl-k">protected</span> <span class="pl-c1"><span class="pl-c1">$</span>aesKey</span> = <span class="pl-s">'libcckeylibcckey'</span>;
-    <span class="pl-k">protected</span> <span class="pl-c1"><span class="pl-c1">$</span>aesIv</span> = <span class="pl-s">'libcciv libcciv '</span>;
-    <span class="pl-k">protected</span> <span class="pl-c1"><span class="pl-c1">$</span>blowString</span> = <span class="pl-s">'3DC5CA39'</span>;
+    <span class="pl-k">protected</span> <span class="pl-c1"><span class="pl-c1">$</span>aesKey</span> = <span class="pl-s">'<span class="pl-s">libcckeylibcckey</span>'</span>;
+    <span class="pl-k">protected</span> <span class="pl-c1"><span class="pl-c1">$</span>aesIv</span> = <span class="pl-s">'<span class="pl-s">libcciv libcciv </span>'</span>;
+    <span class="pl-k">protected</span> <span class="pl-c1"><span class="pl-c1">$</span>blowString</span> = <span class="pl-s">'<span class="pl-s">3DC5CA39</span>'</span>;
     <span class="pl-k">protected</span> <span class="pl-c1"><span class="pl-c1">$</span>blowKey</span> = <span class="pl-c1">null</span>;
     <span class="pl-k">protected</span> <span class="pl-c1"><span class="pl-c1">$</span>blowIv</span> = <span class="pl-c1">null</span>;
      
     <span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">__construct</span>(<span class="pl-s1"><span class="pl-c1">$</span>version</span> = <span class="pl-c1">12</span>)
     {
         <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-c1">version</span> = <span class="pl-s1"><span class="pl-c1">$</span>version</span>;
-        <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-c1">blowKey</span> = sha1(<span class="pl-s">'3DC5CA39'</span>, <span class="pl-c1">true</span>);
-        <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-c1">blowIv</span> = hex2bin(<span class="pl-s">'d9c7c3c8870d64bd'</span>);
+        <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-c1">blowKey</span> = <span class="pl-en">sha1</span>(<span class="pl-s">'<span class="pl-s">3DC5CA39</span>'</span>, <span class="pl-c1">true</span>);
+        <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-c1">blowIv</span> = <span class="pl-en">hex2bin</span>(<span class="pl-s">'<span class="pl-s">d9c7c3c8870d64bd</span>'</span>);
     }
      
     <span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">encrypt</span>(<span class="pl-s1"><span class="pl-c1">$</span>string</span>)
@@ -112,40 +112,40 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
      
     <span class="pl-k">protected</span> <span class="pl-k">function</span> <span class="pl-en">encryptEleven</span>(<span class="pl-s1"><span class="pl-c1">$</span>string</span>)
     {
-        <span class="pl-s1"><span class="pl-c1">$</span>round</span> = intval(floor(strlen(<span class="pl-s1"><span class="pl-c1">$</span>string</span>) / <span class="pl-c1">8</span>));
-        <span class="pl-s1"><span class="pl-c1">$</span>leftLength</span> = strlen(<span class="pl-s1"><span class="pl-c1">$</span>string</span>) % <span class="pl-c1">8</span>;
+        <span class="pl-s1"><span class="pl-c1">$</span>round</span> = <span class="pl-en">intval</span>(<span class="pl-en">floor</span>(<span class="pl-en">strlen</span>(<span class="pl-s1"><span class="pl-c1">$</span>string</span>) / <span class="pl-c1">8</span>));
+        <span class="pl-s1"><span class="pl-c1">$</span>leftLength</span> = <span class="pl-en">strlen</span>(<span class="pl-s1"><span class="pl-c1">$</span>string</span>) % <span class="pl-c1">8</span>;
         <span class="pl-s1"><span class="pl-c1">$</span>result</span> = <span class="pl-s">''</span>;
         <span class="pl-s1"><span class="pl-c1">$</span>currentVector</span> = <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-c1">blowIv</span>;
          
-        for (<span class="pl-s1"><span class="pl-c1">$</span>i</span> = <span class="pl-c1">0</span>; <span class="pl-s1"><span class="pl-c1">$</span>i</span> &lt; <span class="pl-s1"><span class="pl-c1">$</span>round</span>; <span class="pl-s1"><span class="pl-c1">$</span>i</span>++) {
-            <span class="pl-s1"><span class="pl-c1">$</span>temp</span> = <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-en">encryptBlock</span>(<span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-en">xorBytes</span>(substr(<span class="pl-s1"><span class="pl-c1">$</span>string</span>, <span class="pl-c1">8</span> * <span class="pl-s1"><span class="pl-c1">$</span>i</span>, <span class="pl-c1">8</span>), <span class="pl-s1"><span class="pl-c1">$</span>currentVector</span>));
+        <span class="pl-k">for</span> (<span class="pl-s1"><span class="pl-c1">$</span>i</span> = <span class="pl-c1">0</span>; <span class="pl-s1"><span class="pl-c1">$</span>i</span> &lt; <span class="pl-s1"><span class="pl-c1">$</span>round</span>; <span class="pl-s1"><span class="pl-c1">$</span>i</span>++) {
+            <span class="pl-s1"><span class="pl-c1">$</span>temp</span> = <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-en">encryptBlock</span>(<span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-en">xorBytes</span>(<span class="pl-en">substr</span>(<span class="pl-s1"><span class="pl-c1">$</span>string</span>, <span class="pl-c1">8</span> * <span class="pl-s1"><span class="pl-c1">$</span>i</span>, <span class="pl-c1">8</span>), <span class="pl-s1"><span class="pl-c1">$</span>currentVector</span>));
             <span class="pl-s1"><span class="pl-c1">$</span>currentVector</span> = <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-en">xorBytes</span>(<span class="pl-s1"><span class="pl-c1">$</span>currentVector</span>, <span class="pl-s1"><span class="pl-c1">$</span>temp</span>);
             <span class="pl-s1"><span class="pl-c1">$</span>result</span> .= <span class="pl-s1"><span class="pl-c1">$</span>temp</span>;
         }
          
         <span class="pl-k">if</span> (<span class="pl-s1"><span class="pl-c1">$</span>leftLength</span>) {
             <span class="pl-s1"><span class="pl-c1">$</span>currentVector</span> = <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-en">encryptBlock</span>(<span class="pl-s1"><span class="pl-c1">$</span>currentVector</span>);
-            <span class="pl-s1"><span class="pl-c1">$</span>result</span> .= <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-en">xorBytes</span>(substr(<span class="pl-s1"><span class="pl-c1">$</span>string</span>, <span class="pl-c1">8</span> * <span class="pl-s1"><span class="pl-c1">$</span>i</span>, <span class="pl-s1"><span class="pl-c1">$</span>leftLength</span>), <span class="pl-s1"><span class="pl-c1">$</span>currentVector</span>);
+            <span class="pl-s1"><span class="pl-c1">$</span>result</span> .= <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-en">xorBytes</span>(<span class="pl-en">substr</span>(<span class="pl-s1"><span class="pl-c1">$</span>string</span>, <span class="pl-c1">8</span> * <span class="pl-s1"><span class="pl-c1">$</span>i</span>, <span class="pl-s1"><span class="pl-c1">$</span>leftLength</span>), <span class="pl-s1"><span class="pl-c1">$</span>currentVector</span>);
         }
          
-        <span class="pl-k">return</span> strtoupper(bin2hex(<span class="pl-s1"><span class="pl-c1">$</span>result</span>));
+        <span class="pl-k">return</span> <span class="pl-en">strtoupper</span>(<span class="pl-en">bin2hex</span>(<span class="pl-s1"><span class="pl-c1">$</span>result</span>));
     }
      
     <span class="pl-k">protected</span> <span class="pl-k">function</span> <span class="pl-en">encryptBlock</span>(<span class="pl-s1"><span class="pl-c1">$</span>block</span>)
     {
-        <span class="pl-k">return</span> openssl_encrypt(<span class="pl-s1"><span class="pl-c1">$</span>block</span>, <span class="pl-s">'BF-ECB'</span>, <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-c1">blowKey</span>, <span class="pl-c1">OPENSSL_RAW_DATA</span>|<span class="pl-c1">OPENSSL_NO_PADDING</span>);
+        <span class="pl-k">return</span> <span class="pl-en">openssl_encrypt</span>(<span class="pl-s1"><span class="pl-c1">$</span>block</span>, <span class="pl-s">'<span class="pl-s">BF-ECB</span>'</span>, <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-c1">blowKey</span>, <span class="pl-c1">OPENSSL_RAW_DATA</span>|<span class="pl-c1">OPENSSL_NO_PADDING</span>);
     }
      
     <span class="pl-k">protected</span> <span class="pl-k">function</span> <span class="pl-en">decryptBlock</span>(<span class="pl-s1"><span class="pl-c1">$</span>block</span>)
     {
-        <span class="pl-k">return</span> openssl_decrypt(<span class="pl-s1"><span class="pl-c1">$</span>block</span>, <span class="pl-s">'BF-ECB'</span>, <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-c1">blowKey</span>, <span class="pl-c1">OPENSSL_RAW_DATA</span>|<span class="pl-c1">OPENSSL_NO_PADDING</span>);
+        <span class="pl-k">return</span> <span class="pl-en">openssl_decrypt</span>(<span class="pl-s1"><span class="pl-c1">$</span>block</span>, <span class="pl-s">'<span class="pl-s">BF-ECB</span>'</span>, <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-c1">blowKey</span>, <span class="pl-c1">OPENSSL_RAW_DATA</span>|<span class="pl-c1">OPENSSL_NO_PADDING</span>);
     }
      
     <span class="pl-k">protected</span> <span class="pl-k">function</span> <span class="pl-en">xorBytes</span>(<span class="pl-s1"><span class="pl-c1">$</span>str1</span>, <span class="pl-s1"><span class="pl-c1">$</span>str2</span>)
     {
         <span class="pl-s1"><span class="pl-c1">$</span>result</span> = <span class="pl-s">''</span>;
-        for (<span class="pl-s1"><span class="pl-c1">$</span>i</span> = <span class="pl-c1">0</span>; <span class="pl-s1"><span class="pl-c1">$</span>i</span> &lt; strlen(<span class="pl-s1"><span class="pl-c1">$</span>str1</span>); <span class="pl-s1"><span class="pl-c1">$</span>i</span>++) {
-            <span class="pl-s1"><span class="pl-c1">$</span>result</span> .= chr(ord(<span class="pl-s1"><span class="pl-c1">$</span>str1</span>[<span class="pl-s1"><span class="pl-c1">$</span>i</span>]) ^ ord(<span class="pl-s1"><span class="pl-c1">$</span>str2</span>[<span class="pl-s1"><span class="pl-c1">$</span>i</span>]));
+        <span class="pl-k">for</span> (<span class="pl-s1"><span class="pl-c1">$</span>i</span> = <span class="pl-c1">0</span>; <span class="pl-s1"><span class="pl-c1">$</span>i</span> &lt; <span class="pl-en">strlen</span>(<span class="pl-s1"><span class="pl-c1">$</span>str1</span>); <span class="pl-s1"><span class="pl-c1">$</span>i</span>++) {
+            <span class="pl-s1"><span class="pl-c1">$</span>result</span> .= <span class="pl-en">chr</span>(<span class="pl-en">ord</span>(<span class="pl-s1"><span class="pl-c1">$</span>str1</span>[<span class="pl-s1"><span class="pl-c1">$</span>i</span>]) ^ <span class="pl-en">ord</span>(<span class="pl-s1"><span class="pl-c1">$</span>str2</span>[<span class="pl-s1"><span class="pl-c1">$</span>i</span>]));
         }
          
         <span class="pl-k">return</span> <span class="pl-s1"><span class="pl-c1">$</span>result</span>;
@@ -153,8 +153,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
      
     <span class="pl-k">protected</span> <span class="pl-k">function</span> <span class="pl-en">encryptTwelve</span>(<span class="pl-s1"><span class="pl-c1">$</span>string</span>)
     {
-        <span class="pl-s1"><span class="pl-c1">$</span>result</span> = openssl_encrypt(<span class="pl-s1"><span class="pl-c1">$</span>string</span>, <span class="pl-s">'AES-128-CBC'</span>, <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-c1">aesKey</span>, <span class="pl-c1">OPENSSL_RAW_DATA</span>, <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-c1">aesIv</span>);
-        <span class="pl-k">return</span> strtoupper(bin2hex(<span class="pl-s1"><span class="pl-c1">$</span>result</span>));
+        <span class="pl-s1"><span class="pl-c1">$</span>result</span> = <span class="pl-en">openssl_encrypt</span>(<span class="pl-s1"><span class="pl-c1">$</span>string</span>, <span class="pl-s">'<span class="pl-s">AES-128-CBC</span>'</span>, <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-c1">aesKey</span>, <span class="pl-c1">OPENSSL_RAW_DATA</span>, <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-c1">aesIv</span>);
+        <span class="pl-k">return</span> <span class="pl-en">strtoupper</span>(<span class="pl-en">bin2hex</span>(<span class="pl-s1"><span class="pl-c1">$</span>result</span>));
     }
      
     <span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">decrypt</span>(<span class="pl-s1"><span class="pl-c1">$</span>string</span>)
@@ -176,15 +176,15 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
      
     <span class="pl-k">protected</span> <span class="pl-k">function</span> <span class="pl-en">decryptEleven</span>(<span class="pl-s1"><span class="pl-c1">$</span>upperString</span>)
     {
-        <span class="pl-s1"><span class="pl-c1">$</span>string</span> = hex2bin(strtolower(<span class="pl-s1"><span class="pl-c1">$</span>upperString</span>));
+        <span class="pl-s1"><span class="pl-c1">$</span>string</span> = <span class="pl-en">hex2bin</span>(<span class="pl-en">strtolower</span>(<span class="pl-s1"><span class="pl-c1">$</span>upperString</span>));
          
-        <span class="pl-s1"><span class="pl-c1">$</span>round</span> = intval(floor(strlen(<span class="pl-s1"><span class="pl-c1">$</span>string</span>) / <span class="pl-c1">8</span>));
-        <span class="pl-s1"><span class="pl-c1">$</span>leftLength</span> = strlen(<span class="pl-s1"><span class="pl-c1">$</span>string</span>) % <span class="pl-c1">8</span>;
+        <span class="pl-s1"><span class="pl-c1">$</span>round</span> = <span class="pl-en">intval</span>(<span class="pl-en">floor</span>(<span class="pl-en">strlen</span>(<span class="pl-s1"><span class="pl-c1">$</span>string</span>) / <span class="pl-c1">8</span>));
+        <span class="pl-s1"><span class="pl-c1">$</span>leftLength</span> = <span class="pl-en">strlen</span>(<span class="pl-s1"><span class="pl-c1">$</span>string</span>) % <span class="pl-c1">8</span>;
         <span class="pl-s1"><span class="pl-c1">$</span>result</span> = <span class="pl-s">''</span>;
         <span class="pl-s1"><span class="pl-c1">$</span>currentVector</span> = <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-c1">blowIv</span>;
          
-        for (<span class="pl-s1"><span class="pl-c1">$</span>i</span> = <span class="pl-c1">0</span>; <span class="pl-s1"><span class="pl-c1">$</span>i</span> &lt; <span class="pl-s1"><span class="pl-c1">$</span>round</span>; <span class="pl-s1"><span class="pl-c1">$</span>i</span>++) {
-            <span class="pl-s1"><span class="pl-c1">$</span>encryptedBlock</span> = substr(<span class="pl-s1"><span class="pl-c1">$</span>string</span>, <span class="pl-c1">8</span> * <span class="pl-s1"><span class="pl-c1">$</span>i</span>, <span class="pl-c1">8</span>);
+        <span class="pl-k">for</span> (<span class="pl-s1"><span class="pl-c1">$</span>i</span> = <span class="pl-c1">0</span>; <span class="pl-s1"><span class="pl-c1">$</span>i</span> &lt; <span class="pl-s1"><span class="pl-c1">$</span>round</span>; <span class="pl-s1"><span class="pl-c1">$</span>i</span>++) {
+            <span class="pl-s1"><span class="pl-c1">$</span>encryptedBlock</span> = <span class="pl-en">substr</span>(<span class="pl-s1"><span class="pl-c1">$</span>string</span>, <span class="pl-c1">8</span> * <span class="pl-s1"><span class="pl-c1">$</span>i</span>, <span class="pl-c1">8</span>);
             <span class="pl-s1"><span class="pl-c1">$</span>temp</span> = <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-en">xorBytes</span>(<span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-en">decryptBlock</span>(<span class="pl-s1"><span class="pl-c1">$</span>encryptedBlock</span>), <span class="pl-s1"><span class="pl-c1">$</span>currentVector</span>);
             <span class="pl-s1"><span class="pl-c1">$</span>currentVector</span> = <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-en">xorBytes</span>(<span class="pl-s1"><span class="pl-c1">$</span>currentVector</span>, <span class="pl-s1"><span class="pl-c1">$</span>encryptedBlock</span>);
             <span class="pl-s1"><span class="pl-c1">$</span>result</span> .= <span class="pl-s1"><span class="pl-c1">$</span>temp</span>;
@@ -192,7 +192,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
          
         <span class="pl-k">if</span> (<span class="pl-s1"><span class="pl-c1">$</span>leftLength</span>) {
             <span class="pl-s1"><span class="pl-c1">$</span>currentVector</span> = <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-en">encryptBlock</span>(<span class="pl-s1"><span class="pl-c1">$</span>currentVector</span>);
-            <span class="pl-s1"><span class="pl-c1">$</span>result</span> .= <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-en">xorBytes</span>(substr(<span class="pl-s1"><span class="pl-c1">$</span>string</span>, <span class="pl-c1">8</span> * <span class="pl-s1"><span class="pl-c1">$</span>i</span>, <span class="pl-s1"><span class="pl-c1">$</span>leftLength</span>), <span class="pl-s1"><span class="pl-c1">$</span>currentVector</span>);
+            <span class="pl-s1"><span class="pl-c1">$</span>result</span> .= <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-en">xorBytes</span>(<span class="pl-en">substr</span>(<span class="pl-s1"><span class="pl-c1">$</span>string</span>, <span class="pl-c1">8</span> * <span class="pl-s1"><span class="pl-c1">$</span>i</span>, <span class="pl-s1"><span class="pl-c1">$</span>leftLength</span>), <span class="pl-s1"><span class="pl-c1">$</span>currentVector</span>);
         }
          
         <span class="pl-k">return</span> <span class="pl-s1"><span class="pl-c1">$</span>result</span>;
@@ -200,8 +200,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
      
     <span class="pl-k">protected</span> <span class="pl-k">function</span> <span class="pl-en">decryptTwelve</span>(<span class="pl-s1"><span class="pl-c1">$</span>upperString</span>)
     {
-        <span class="pl-s1"><span class="pl-c1">$</span>string</span> = hex2bin(strtolower(<span class="pl-s1"><span class="pl-c1">$</span>upperString</span>));
-        <span class="pl-k">return</span> openssl_decrypt(<span class="pl-s1"><span class="pl-c1">$</span>string</span>, <span class="pl-s">'AES-128-CBC'</span>, <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-c1">aesKey</span>, <span class="pl-c1">OPENSSL_RAW_DATA</span>, <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-c1">aesIv</span>);
+        <span class="pl-s1"><span class="pl-c1">$</span>string</span> = <span class="pl-en">hex2bin</span>(<span class="pl-en">strtolower</span>(<span class="pl-s1"><span class="pl-c1">$</span>upperString</span>));
+        <span class="pl-k">return</span> <span class="pl-en">openssl_decrypt</span>(<span class="pl-s1"><span class="pl-c1">$</span>string</span>, <span class="pl-s">'<span class="pl-s">AES-128-CBC</span>'</span>, <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-c1">aesKey</span>, <span class="pl-c1">OPENSSL_RAW_DATA</span>, <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-c1">aesIv</span>);
     }
 };
  
@@ -211,14 +211,14 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <span class="pl-s1"><span class="pl-c1">$</span>navicatPassword</span> = <span class="pl-k">new</span> <span class="pl-v">NavicatPassword</span>(<span class="pl-c1">11</span>);
  
 <span class="pl-c">//解密</span>
-<span class="pl-s1"><span class="pl-c1">$</span>decode</span> = <span class="pl-s1"><span class="pl-c1">$</span>navicatPassword</span>-&gt;<span class="pl-en">decrypt</span>(<span class="pl-s">'xxxxxxxxxxxxxxx'</span>); <span class="pl-c">// navicat密钥</span>
-<span class="pl-k">echo</span> <span class="pl-s1"><span class="pl-c1">$</span>decode</span>."\n";
+<span class="pl-s1"><span class="pl-c1">$</span>decode</span> = <span class="pl-s1"><span class="pl-c1">$</span>navicatPassword</span>-&gt;<span class="pl-en">decrypt</span>(<span class="pl-s">'<span class="pl-s">xxxxxxxxxxxxxxx</span>'</span>); <span class="pl-c">// navicat密钥</span>
+<span class="pl-k">echo</span> <span class="pl-s1"><span class="pl-c1">$</span>decode</span>.<span class="pl-s">"\n"</span>;
 <span class="pl-ent">?&gt;</span></pre></div>
 <p>navicat版本11或12都可以试试</p>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/6cbc3022-c900-4b30-8480-00930f379f5d"><img src="https://github.com/user-attachments/assets/6cbc3022-c900-4b30-8480-00930f379f5d" alt="image" style="max-width: 100%;"></a></p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/26187d255f2d3949bd1cb24f91cfd903e8adb779afc5c4ee74232d22e9603979/68747470733a2f2f69302e6864736c622e636f6d2f6266732f61727469636c652f30623562643038663234376335336435346138386139373834393333343737653438373539363533372e706e67"><img src="https://camo.githubusercontent.com/26187d255f2d3949bd1cb24f91cfd903e8adb779afc5c4ee74232d22e9603979/68747470733a2f2f69302e6864736c622e636f6d2f6266732f61727469636c652f30623562643038663234376335336435346138386139373834393333343737653438373539363533372e706e67" alt="" data-canonical-src="https://i0.hdslb.com/bfs/article/0b5bd08f247c53d54a88a9784933477e487596537.png" style="max-width: 100%;"></a></p>
 <h2>二</h2>
 <p>当然还有更简单的方法，<a href="https://github.com/Zhuoyuan1/navicat_password_decrypt">navicat_password_decrypt</a>，忘记navicat密码时,此工具可以帮您查看密码。<br>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/88161ed5-dac8-4cf7-89a0-1040b4b540d0"><img src="https://github.com/user-attachments/assets/88161ed5-dac8-4cf7-89a0-1040b4b540d0" alt="image" style="max-width: 100%;"></a></p>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/1d9e81131cd0932deb47bf2e401642e1017775f0b42e37f129e5cbfdb02ad32d/68747470733a2f2f69302e6864736c622e636f6d2f6266732f61727469636c652f35333561303162396163336632363332633839623965336537663739313763363438373539363533372e706e67"><img src="https://camo.githubusercontent.com/1d9e81131cd0932deb47bf2e401642e1017775f0b42e37f129e5cbfdb02ad32d/68747470733a2f2f69302e6864736c622e636f6d2f6266732f61727469636c652f35333561303162396163336632363332633839623965336537663739313763363438373539363533372e706e67" alt="" data-canonical-src="https://i0.hdslb.com/bfs/article/535a01b9ac3f2632c89b9e3e7f7917c6487596537.png" style="max-width: 100%;"></a></p>
 <h2>三</h2>
 <p>如果有自动化取证工具也是可以的例如：取证大师中的小程序——navicat会话解密。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;">感谢您的访问，转载请注明出处，谢谢！</div>
