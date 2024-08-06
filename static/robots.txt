@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dio0v0.github.io/rss.xml
