@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         /* 背景图片 */
         html {
-            background: url('https://img.liyifan.xyz/file/a2262c314f6a8bd592eba.jpg') no-repeat center center fixed;
+            background: url('https://dio0v0.github.io/img/02.png') no-repeat center center fixed;
             background-size: cover;
         }
         
@@ -245,7 +245,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* 背景图片 */
         html {
-            background: url('https://img.liyifan.xyz/file/a2262c314f6a8bd592eba.jpg') no-repeat center center fixed;
+            background: url('https://dio0v0.github.io/img/02.png') no-repeat center center fixed;
             background-size: cover;
         }
 
@@ -372,7 +372,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         /* 背景图片 */
         html {
-            background: url('https://img.liyifan.xyz/file/a2262c314f6a8bd592eba.jpg') no-repeat center center fixed;
+            background: url('https://dio0v0.github.io/img/02.png') no-repeat center center fixed;
             background-size: cover;
         }
         
