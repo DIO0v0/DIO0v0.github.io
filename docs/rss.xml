@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>DIO's Blog</title><link>https://DIO0v0.github.io</link><description>A new attempt；Record and share what I have seen and heard</description><copyright>DIO's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/152008182?v=4</url><title>avatar</title><link>https://DIO0v0.github.io</link></image><lastBuildDate>Sun, 04 Aug 2024 01:52:37 +0000</lastBuildDate><managingEditor>DIO's Blog</managingEditor><ttl>60</ttl><webMaster>DIO's Blog</webMaster><item><title>Emoji Search</title><link>https://DIO0v0.github.io/post/Emoji%20Search.html</link><description>![image](https://i0.hdslb.com/bfs/article/9f10ae7a16b2f1297e73fcf1e638051c487596537.png)&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>DIO's Blog</title><link>https://DIO0v0.github.io</link><description>A new attempt；Record and share what I have seen and heard</description><copyright>DIO's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/152008182?v=4</url><title>avatar</title><link>https://DIO0v0.github.io</link></image><lastBuildDate>Wed, 07 Aug 2024 02:42:48 +0000</lastBuildDate><managingEditor>DIO's Blog</managingEditor><ttl>60</ttl><webMaster>DIO's Blog</webMaster><item><title>Emoji Search</title><link>https://DIO0v0.github.io/post/Emoji%20Search.html</link><description>![image](https://i0.hdslb.com/bfs/article/9f10ae7a16b2f1297e73fcf1e638051c487596537.png)&#13;
 「[Emoji Search](https://www.emojisearch.app/)」是一款专注于 Emoji 搜索的网络应用，它提供了简单直观的界面，帮助用户快速找到想要的 Emoji 表情符号，提升沟通效率和乐趣。</description><guid isPermaLink="true">https://DIO0v0.github.io/post/Emoji%20Search.html</guid><pubDate>Sun, 04 Aug 2024 01:51:58 +0000</pubDate></item><item><title>绕过开机密码（不通过PE盘）</title><link>https://DIO0v0.github.io/post/rao-guo-kai-ji-mi-ma-%EF%BC%88-bu-tong-guo-PE-pan-%EF%BC%89.html</link><description>利用粘滞键:连按5次shift键,弹出窗口,即可利用 利用windows错误修复(通过开机时断电)&#13;
 &#13;
 ![image](https://github.com/user-attachments/assets/f83c5e8b-7e4b-4d68-baa7-5a3a18ff491e)&#13;
@@ -586,7 +586,7 @@ mtd write breed-mt7621-pbr-m1.bin Bootloader&#13;
 &#13;
 &#13;
 &#13;
-。</description><guid isPermaLink="true">https://DIO0v0.github.io/post/xiao-mi-lu-you-qi-%204A%20-qian-zhao-ban-shua-ru-%20OpenWrt.html</guid><pubDate>Sat, 22 Jun 2024 10:21:59 +0000</pubDate></item><item><title>Gmeek 强调关键信息使用</title><link>https://DIO0v0.github.io/post/Gmeek%20-qiang-diao-guan-jian-xin-xi-shi-yong.html</link><description>&gt; [!NOTE]&#13;
+。</description><guid isPermaLink="true">https://DIO0v0.github.io/post/xiao-mi-lu-you-qi-%204A%20-qian-zhao-ban-shua-ru-%20OpenWrt.html</guid><pubDate>Sat, 22 Jun 2024 10:21:59 +0000</pubDate></item><item><title>强调关键信息使用</title><link>https://DIO0v0.github.io/post/qiang-diao-guan-jian-xin-xi-shi-yong.html</link><description>&gt; [!NOTE]&#13;
 &gt; Useful information that users should know, even when skimming content.&#13;
 &#13;
 &gt; [!TIP]&#13;
@@ -599,7 +599,7 @@ mtd write breed-mt7621-pbr-m1.bin Bootloader&#13;
 &gt; Urgent info that needs immediate user attention to avoid problems.&#13;
 &#13;
 &gt; [!CAUTION]&#13;
-&gt; Advises about risks or negative outcomes of certain actions.。</description><guid isPermaLink="true">https://DIO0v0.github.io/post/Gmeek%20-qiang-diao-guan-jian-xin-xi-shi-yong.html</guid><pubDate>Sat, 22 Jun 2024 10:02:34 +0000</pubDate></item><item><title>Blog Test</title><link>https://DIO0v0.github.io/post/Blog%20Test.html</link><description># Try_it&#13;
+&gt; Advises about risks or negative outcomes of certain actions.。</description><guid isPermaLink="true">https://DIO0v0.github.io/post/qiang-diao-guan-jian-xin-xi-shi-yong.html</guid><pubDate>Sat, 22 Jun 2024 10:02:34 +0000</pubDate></item><item><title>Blog Test</title><link>https://DIO0v0.github.io/post/Blog%20Test.html</link><description># Try_it&#13;
 # First Blog test&#13;
 &#13;
 ![1](https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/5843cea9-dfd8-48b4-a706-e54091114bad)&#13;
