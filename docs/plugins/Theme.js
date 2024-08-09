@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         /* 背景图片 */
         html {
-            background: url('https://dio0v0.github.io/img/02.png') no-repeat center center fixed;
+            background: url('https://img-bca.pages.dev/file/2e7a33681bc622486ba38.png') no-repeat center center fixed;
             background-size: cover;
         }
         
@@ -245,7 +245,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* 背景图片 */
         html {
-            background: url('https://dio0v0.github.io/img/02.png') no-repeat center center fixed;
+            background: url('https://img-bca.pages.dev/file/2e7a33681bc622486ba38.png') no-repeat center center fixed;
             background-size: cover;
         }
 
@@ -372,7 +372,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         /* 背景图片 */
         html {
-            background: url('https://dio0v0.github.io/img/02.png') no-repeat center center fixed;
+            background: url('https://img-bca.pages.dev/file/2e7a33681bc622486ba38.png') no-repeat center center fixed;
             background-size: cover;
         }
         
