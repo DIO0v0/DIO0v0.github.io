@@ -31,4 +31,19 @@ wsl --install --web-download
 <img src="https://img-bca.pages.dev/file/9b3fdff2120a679b8cacf.png" />
 </div>
 
-## 四、
+## 四、安装kali图形化界面
+1. 更新系统源
+`apt-get update`
+2. 安装图形化界面
+`apt-get install kali-win-kex`
+3. 运行kex
+`kex --esm --ip -sound`
+之后系统会调用远程桌面连接，连接到kali
+## 五、安装kali的所有工具
+```
+sudo apt-get install kali-linux-default  # 安装默认工具集
+或
+sudo apt-get install kali-linux-large    # 安装更全面的工具集
+或
+sudo apt-get install kali-linux-everything # 安装所有的工具
+```
