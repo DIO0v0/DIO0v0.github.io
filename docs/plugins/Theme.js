@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         /* 背景图片 */
         html {
-            background: url('https://img-bca.pages.dev/file/2e7a33681bc622486ba38.png') no-repeat center center fixed;
+            background: url('https://img-bca.pages.dev/file/cc3331c4ab5aaf4251788.jpg') no-repeat center center fixed;
             background-size: cover;
         }
         
@@ -245,7 +245,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* 背景图片 */
         html {
-            background: url('https://img-bca.pages.dev/file/2e7a33681bc622486ba38.png') no-repeat center center fixed;
+            background: url('https://img-bca.pages.dev/file/022435c346d976b8064b5.jpg') no-repeat center center fixed;
             background-size: cover;
         }
 
@@ -372,7 +372,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         /* 背景图片 */
         html {
-            background: url('https://img-bca.pages.dev/file/2e7a33681bc622486ba38.png') no-repeat center center fixed;
+            background: url('https://img-bca.pages.dev/file/cc3331c4ab5aaf4251788.jpg') no-repeat center center fixed;
             background-size: cover;
         }
         
