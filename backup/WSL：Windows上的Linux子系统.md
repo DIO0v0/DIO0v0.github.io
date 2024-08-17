@@ -1,12 +1,12 @@
 ## 一、开启虚拟化
 打开任务管理器-CPU，查看下方是否显示为已启用：（BIOS中开启）
 <div align=center>
-<img src="https://github.com/user-attachments/assets/dad8dbb4-52f0-42cc-b9e1-0ef4a4d9b0a7" width="20%" height="20%"/>
+<img src="https://img-bca.pages.dev/file/d06868cabe18faa2aa566.png" width="20%" height="20%"/>
 </div>
 
 ## 二、启用相关Windows功能
 <div align=center>
-<img src="https://img-bca.pages.dev/api/file/f171be8ceb88001d29f7a.png" width="40%" height="40%"/>
+<img src="https://img-bca.pages.dev/file/f171be8ceb88001d29f7a.png" width="40%" height="40%"/>
 </div>
 
 ## 三、安装WSL

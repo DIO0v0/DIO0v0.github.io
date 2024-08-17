@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>DIO's Blog</title><link>https://DIO0v0.github.io</link><description>A new attempt；Record and share what I have seen and heard</description><copyright>DIO's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/152008182?v=4</url><title>avatar</title><link>https://DIO0v0.github.io</link></image><lastBuildDate>Sat, 17 Aug 2024 14:08:44 +0000</lastBuildDate><managingEditor>DIO's Blog</managingEditor><ttl>60</ttl><webMaster>DIO's Blog</webMaster><item><title>WSL：Windows上的Linux子系统</title><link>https://DIO0v0.github.io/post/WSL%EF%BC%9AWindows-shang-de-Linux-zi-xi-tong.html</link><description>## 一、开启虚拟化&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>DIO's Blog</title><link>https://DIO0v0.github.io</link><description>A new attempt；Record and share what I have seen and heard</description><copyright>DIO's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/152008182?v=4</url><title>avatar</title><link>https://DIO0v0.github.io</link></image><lastBuildDate>Sat, 17 Aug 2024 14:09:49 +0000</lastBuildDate><managingEditor>DIO's Blog</managingEditor><ttl>60</ttl><webMaster>DIO's Blog</webMaster><item><title>WSL：Windows上的Linux子系统</title><link>https://DIO0v0.github.io/post/WSL%EF%BC%9AWindows-shang-de-Linux-zi-xi-tong.html</link><description>## 一、开启虚拟化&#13;
 打开任务管理器-CPU，查看下方是否显示为已启用：（BIOS中开启）&#13;
 &lt;div align=center&gt;&#13;
-&lt;img src='https://github.com/user-attachments/assets/dad8dbb4-52f0-42cc-b9e1-0ef4a4d9b0a7' width='20%' height='20%'/&gt;&#13;
+&lt;img src='https://img-bca.pages.dev/file/d06868cabe18faa2aa566.png' width='20%' height='20%'/&gt;&#13;
 &lt;/div&gt;&#13;
 &#13;
 ## 二、启用相关Windows功能&#13;
 &lt;div align=center&gt;&#13;
-&lt;img src='https://img-bca.pages.dev/api/file/f171be8ceb88001d29f7a.png' width='40%' height='40%'/&gt;&#13;
+&lt;img src='https://img-bca.pages.dev/file/f171be8ceb88001d29f7a.png' width='40%' height='40%'/&gt;&#13;
 &lt;/div&gt;&#13;
 &#13;
 ## 三、安装WSL&#13;
