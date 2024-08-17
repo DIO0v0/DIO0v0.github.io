@@ -6,7 +6,7 @@
 
 ## 二、启用相关Windows功能
 <div align=center>
-<img src="https://img-bca.pages.dev/file/99b39c134ecc0fcf99c31.png" width="40%" height="40%"/>
+<img src="https://img-bca.pages.dev/api/file/f171be8ceb88001d29f7a.png" width="40%" height="40%"/>
 </div>
 
 ## 三、安装WSL
