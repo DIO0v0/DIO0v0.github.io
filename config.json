@@ -19,7 +19,6 @@
     "showPostSource":0,
     "rssSplit":"sentence",
     "bottomText":"感谢您的访问，转载请注明出处，谢谢！",
-    "backgroundImageUrl": "https://blog.65536.website/smartisan-t1-black.jpg",
     "style":"<style>#postBody{font-size:20px}</style>",
     "primerCSS":"<link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />",
     "allHead":"<script src='https://dio0v0.github.io/plugins/AccessCount.js'></script><script src='https://dio0v0.github.io/live2d-widget/autoload.js'></script>",
