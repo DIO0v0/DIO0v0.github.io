@@ -24,6 +24,6 @@
     "primerCSS":"<link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />",
     "allHead":"<script src='https://dio0v0.github.io/plugins/AccessCount.js'></script><script src='https://dio0v0.github.io/live2d-widget/autoload.js'></script>",
     "indexScript":"<script src='https://dio0v0.github.io/plugins/NumPagination.js'></script><script src='https://dio0v0.github.io/plugins/Theme.js'></script>",
-    "script":"<script src='https://dio0v0.github.io/plugins/TOC.js'></script><script src='https://dio0v0.github.io/plugins/lazyload.js'></script><script src='https://dio0v0.github.io/plugins/Lightbox.js'></script><script src='https://dio0v0.github.io/plugins/Codecopy.js'></script><script src='https://dio0v0.github.io/plugins/Backtotop.js'></script><script>document.getElementById('cmButton').click();</script><script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>"
+    "script":"<script src='https://dio0v0.github.io/plugins/TOC.js'></script><script src='https://dio0v0.github.io/plugins/lazyload.js'></script><script src='https://dio0v0.github.io/plugins/Lightbox.js'></script><script src='https://dio0v0.github.io/plugins/Codecopy.js'></script><script src='https://dio0v0.github.io/plugins/Backtotop.js'></script><script>document.getElementById('cmButton').click();</script><script src='https://dio0v0.github.io/plugins/Lightbox.js'></script>"
     
 }
