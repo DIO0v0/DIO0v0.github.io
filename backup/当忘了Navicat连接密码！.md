@@ -1,6 +1,7 @@
 以navicat15为例，菜单栏上点击`文件`，选择`导出连接...`，一定要选中`导出密码`！！！导出格式为`*.ncx`（该ncx本质上是xml文件，文件中包含连接的全部信息），密码可以在此文件中看到
-![image](https://github.com/user-attachments/assets/a9bf53d0-bdba-4153-a3a4-10f90cf509b8)
-
+<div align=center>
+<img src="https://github.com/user-attachments/assets/a9bf53d0-bdba-4153-a3a4-10f90cf509b8" width="60%" height="60%"/>
+</div>
 ## 一
 在网上找的代码，本地运行或者找php在线运行都可。
 
