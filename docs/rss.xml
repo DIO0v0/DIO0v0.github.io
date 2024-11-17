@@ -1,5 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>DIO's Blog</title><link>https://DIO0v0.github.io</link><description>&lt;p align='center'&gt;A new attempt；Record and share what I have seen and heard&lt;/p&gt;</description><copyright>DIO's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/152008182?v=4</url><title>avatar</title><link>https://DIO0v0.github.io</link></image><lastBuildDate>Thu, 24 Oct 2024 00:39:55 +0000</lastBuildDate><managingEditor>DIO's Blog</managingEditor><ttl>60</ttl><webMaster>DIO's Blog</webMaster><item><title>WSL：Windows上的Linux子系统</title><link>https://DIO0v0.github.io/post/WSL%EF%BC%9AWindows-shang-de-Linux-zi-xi-tong.html</link><description>## 一、开启虚拟化&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>DIO's Blog</title><link>https://DIO0v0.github.io</link><description>&lt;p align='center'&gt;A new attempt；Record and share what I have seen and heard&lt;/p&gt;</description><copyright>DIO's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/152008182?v=4</url><title>avatar</title><link>https://DIO0v0.github.io</link></image><lastBuildDate>Sun, 17 Nov 2024 14:59:20 +0000</lastBuildDate><managingEditor>DIO's Blog</managingEditor><ttl>60</ttl><webMaster>DIO's Blog</webMaster><item><title>Finalshell连接密码解密</title><link>https://DIO0v0.github.io/post/Finalshell-lian-jie-mi-ma-jie-mi.html</link><description>## 获取密文&#13;
+一般finalshell的连接记录在`connect_config.json`文件中，例如：&#13;
+![image](https://github.com/user-attachments/assets/05c9cda5-11b6-456b-a2a2-b95ad838b03f)&#13;
+&#13;
+## 解密&#13;
+可以通过代码或编译好的在线网站来解密&#13;
+1. https://antontwelve.github.io/finalshellPasswordDecrypter&#13;
+![image](https://github.com/user-attachments/assets/4e65b56e-25a6-4201-ade3-24a10876d54e)&#13;
+2. 使用下面 Java 程序可以解密。</description><guid isPermaLink="true">https://DIO0v0.github.io/post/Finalshell-lian-jie-mi-ma-jie-mi.html</guid><pubDate>Sun, 17 Nov 2024 14:58:54 +0000</pubDate></item><item><title>WSL：Windows上的Linux子系统</title><link>https://DIO0v0.github.io/post/WSL%EF%BC%9AWindows-shang-de-Linux-zi-xi-tong.html</link><description>## 一、开启虚拟化&#13;
 打开任务管理器-CPU，查看下方是否显示为已启用：（BIOS中开启）&#13;
 &lt;div align=center&gt;&#13;
 &lt;img src='https://img-bca.pages.dev/file/d06868cabe18faa2aa566.png' width='20%' height='20%'/&gt;&#13;
