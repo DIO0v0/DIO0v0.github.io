@@ -333,7 +333,7 @@ done! Now you can connect to the router using several options: (user: root, pass
 </ul>
 <p>下载 Breed 后，需要通过 FTP 的方式上传到路由器，可以使用 <a href="https://cyberduck.io/download/" rel="nofollow">Cyberduck</a><br>
 连接地址为路由器的地址，默认是 <code class="notranslate">192.168.31.1</code>，选择上传到 <code class="notranslate">/tmp</code> 目录下（其他目录可能会因为权限导致上传失败）<br>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/b53898ba-d48e-4774-9e11-56879096f550"><img src="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/b53898ba-d48e-4774-9e11-56879096f550" alt="image" style="max-width: 100%; height: auto;"></a></p>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/b53898ba-d48e-4774-9e11-56879096f550"><img src="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/b53898ba-d48e-4774-9e11-56879096f550" alt="image" style="max-width: 100%;"></a></p>
 <ul>
 <li>刷入</li>
 </ul>
@@ -342,7 +342,7 @@ done! Now you can connect to the router using several options: (user: root, pass
 mtd write breed-mt7621-pbr-m1.bin Bootloader
 </code></pre>
 <p>刷入完成后，路由器会重启；通过网线连接后访问 <a href="http://192.168.1.1/" rel="nofollow">http://192.168.1.1/</a> 即可进入 Breed 界面<br>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/b913654c-dcbb-4e15-9162-be0350c216c3"><img width="1255" alt="homelab-miwifi-breed-info" src="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/b913654c-dcbb-4e15-9162-be0350c216c3" style="max-width: 100%; height: auto;"></a></p>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/b913654c-dcbb-4e15-9162-be0350c216c3"><img width="1255" alt="homelab-miwifi-breed-info" src="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/b913654c-dcbb-4e15-9162-be0350c216c3" style="max-width: 100%;"></a></p>
 <h1>刷入OpenWrt</h1>
 <p>注意，下面的镜像都有 initramfs-kernel 和 squashfs-sysupgrade 两种；需要使用的是 squashfs-sysupgrade；如果刷入 initramfs-kernel，在重启后配置会丢失，这是因为 initramfs-kernel 将配置保存在内存中，而不是磁盘</p>
 <h2>下载官方镜像</h2>
@@ -350,17 +350,17 @@ mtd write breed-mt7621-pbr-m1.bin Bootloader
 <ul>
 <li><a href="https://openwrt.org/inbox/toh/xiaomi/xiaomi_mi_router_4a_gigabit_edition" rel="nofollow">Xiaomi Mi Router 4A Gigabit Edition 说明文档</a></li>
 </ul>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/c553226f-a077-483f-b7a9-dafec705d83c"><img width="1332" alt="homelab-miwifi-openwrt-firmware-official2" src="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/c553226f-a077-483f-b7a9-dafec705d83c" style="max-width: 100%; height: auto;"></a></p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/c553226f-a077-483f-b7a9-dafec705d83c"><img width="1332" alt="homelab-miwifi-openwrt-firmware-official2" src="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/c553226f-a077-483f-b7a9-dafec705d83c" style="max-width: 100%;"></a></p>
 <ul>
 <li><a href="https://firmware-selector.openwrt.org/?version=21.02.3&amp;target=ramips/mt7621&amp;id=xiaomi_mi-router-4a-gigabit" rel="nofollow">https://firmware-selector.openwrt.org/</a></li>
 </ul>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/71526f16-5cd9-4e67-8b00-34b3098ef23a"><img src="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/71526f16-5cd9-4e67-8b00-34b3098ef23a" alt="image" style="max-width: 100%; height: auto;"></a></p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/71526f16-5cd9-4e67-8b00-34b3098ef23a"><img src="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/71526f16-5cd9-4e67-8b00-34b3098ef23a" alt="image" style="max-width: 100%;"></a></p>
 <h2>刷入OpenWrt</h2>
 <p>进入 Breed，选择固件更新，选择固件，在文件夹中选择 <code class="notranslate">Kernel</code> 版本的镜像，上传并更新；<br>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/0fc377d6-20ea-40de-8ae6-e185030aff8a"><img width="1258" alt="homelab-miwifi-breed-firmware-upload" src="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/0fc377d6-20ea-40de-8ae6-e185030aff8a" style="max-width: 100%; height: auto;"></a><br>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/0f10a0e9-a004-4cae-9c88-e4914993e3cf"><img src="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/0f10a0e9-a004-4cae-9c88-e4914993e3cf" alt="image" style="max-width: 100%; height: auto;"></a></p>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/0fc377d6-20ea-40de-8ae6-e185030aff8a"><img width="1258" alt="homelab-miwifi-breed-firmware-upload" src="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/0fc377d6-20ea-40de-8ae6-e185030aff8a" style="max-width: 100%;"></a><br>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/0f10a0e9-a004-4cae-9c88-e4914993e3cf"><img src="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/0f10a0e9-a004-4cae-9c88-e4914993e3cf" alt="image" style="max-width: 100%;"></a></p>
 <p>等待刷入完成后，访问 <a href="http://192.168.31.1/" rel="nofollow">http://192.168.31.1/</a> 即可进入 OpenWrt， 默认的用户名密码是 root 和 password<br>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/fefe29d5-5b50-426c-984f-b4ee4ef266fc"><img width="1671" alt="homelab-miwifi-openwrt-homepage" src="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/fefe29d5-5b50-426c-984f-b4ee4ef266fc" style="max-width: 100%; height: auto;"></a></p>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/fefe29d5-5b50-426c-984f-b4ee4ef266fc"><img width="1671" alt="homelab-miwifi-openwrt-homepage" src="https://github.com/DIO0v0/DIO0v0.github.io/assets/152008182/fefe29d5-5b50-426c-984f-b4ee4ef266fc" style="max-width: 100%;"></a></p>
 <p>如果刷入失败，或者想重新刷入其他固件，可以将路由器断电，按住 Reset 后通电，直到路由器指示灯闪烁后松开 Reset，即可进入 Breed 重新进行刷机</p></div>
 <div style="font-size:small;margin-top:8px;float:right;">感谢您的访问！转载请注明出处，谢谢！</div>
 
