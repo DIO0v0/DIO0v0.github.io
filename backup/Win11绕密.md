@@ -1,8 +1,3 @@
----
-title: "Win11-rao-mi"  # 文章标题（已有则保留）
-date: 2026-01-01  # 发布日期（格式：YYYY-MM-DD HH:MM:SS，也可简化为 YYYY-MM-DD）
-
----
 ## 例外
 - 若开启了bit locker硬盘加密无法绕密
 
