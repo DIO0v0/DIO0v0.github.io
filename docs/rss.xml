@@ -1,5 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>DIO's Blog</title><link>https://DIO0v0.github.io</link><description>&lt;p align='center'&gt;A new attempt&lt;br&gt;Record and share what I have seen and heard&lt;/p&gt;</description><copyright>DIO's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/152008182?v=4</url><title>avatar</title><link>https://DIO0v0.github.io</link></image><lastBuildDate>Sat, 28 Feb 2026 14:11:50 +0000</lastBuildDate><managingEditor>DIO's Blog</managingEditor><ttl>60</ttl><webMaster>DIO's Blog</webMaster><item><title>硬盘爆了之百度网盘</title><link>https://DIO0v0.github.io/post/ying-pan-bao-le-zhi-bai-du-wang-pan.html</link><description>        
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>DIO's Blog</title><link>https://DIO0v0.github.io</link><description>&lt;p align='center'&gt;A new attempt&lt;br&gt;Record and share what I have seen and heard&lt;/p&gt;</description><copyright>DIO's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/152008182?v=4</url><title>avatar</title><link>https://DIO0v0.github.io</link></image><lastBuildDate>Fri, 19 Jun 2026 10:46:37 +0000</lastBuildDate><managingEditor>DIO's Blog</managingEditor><ttl>60</ttl><webMaster>DIO's Blog</webMaster><item><title>南太行两天自驾游路书</title><link>https://DIO0v0.github.io/post/nan-tai-xing-liang-tian-zi-jia-you-lu-shu.html</link><description># 南太行两天自驾游路书
+
+**核心信息**：
+- 出行人员：一家三口
+- 车辆续航：WLTP 500km
+- 住宿安排：两晚外宿
+- 覆盖景点：15个精选景点
+- 全程里程：约850km
+
+## 路线示意图说明
+&gt; 南太行自驾路线示意图（非精确比例，方向大致正确）
+&gt; 图例：
+&gt; - 🔴 必去TOP景点 | 🟢 精选景点 | 🟣 打卡/特色
+&gt; - 🟨 充电点 | 🔵 住宿点 | 🟪 天路/公路
+&gt; - 🟢 实线（Day1路线） | 🔵 实线（Day2路线）
+&gt; - 🟠 虚线（返程路线）
+
+## 1 周五晚 · 出发日
+
+| 时间 | 事项 | 说明 |
+|------|------|------|
+| 19:00 | 商丘出发 | 走 G30连霍 + G45大广 + G4京港澳，向西北方向 |
+| ~20:00 | 新乡服务区 ⚡️充电 | 视出发前电量决定是否补电。</description><guid isPermaLink="true">https://DIO0v0.github.io/post/nan-tai-xing-liang-tian-zi-jia-you-lu-shu.html</guid><pubDate>Fri, 19 Jun 2026 10:46:07 +0000</pubDate></item><item><title>硬盘爆了之百度网盘</title><link>https://DIO0v0.github.io/post/ying-pan-bao-le-zhi-bai-du-wang-pan.html</link><description>        
 最近在看美剧《怪奇物语》，想着用百度云盘下载到本地后方便观看随意拖动，于是找了百度网盘资源总共50多个G，我的硬盘当时还有100多个G，想着怎么都是够用了于是晚上开始下，结果一早发现硬盘爆掉了下载错误。</description><guid isPermaLink="true">https://DIO0v0.github.io/post/ying-pan-bao-le-zhi-bai-du-wang-pan.html</guid><pubDate>Sat, 28 Feb 2026 14:11:19 +0000</pubDate></item><item><title>Win11绕密</title><link>https://DIO0v0.github.io/post/Win11-rao-mi.html</link><description>## 例外
 - 若开启了bit locker硬盘加密无法绕密
 
